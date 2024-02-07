@@ -1,6 +1,8 @@
 Portfolio Readme
 Welcome to my portfolio repository! This project showcases my skills and projects, built using Node.js, HTML, CSS, React, and Bootstrap.
 
+<img alt= "Demo" src = "./Images/readme-img.png"/>
+
 Table of Contents
 Introduction
 Features
