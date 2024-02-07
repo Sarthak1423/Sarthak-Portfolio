@@ -1,76 +1,75 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+Portfolio Readme
+Welcome to my portfolio repository! This project showcases my skills and projects, built using Node.js, HTML, CSS, React, and Bootstrap.
 
-<br/>
+Table of Contents
+Introduction
+Features
+Installation
+Usage
+Project Structure
+Technologies Used
+Contributing
+License
+Introduction
+This portfolio serves as a representation of my skills, projects, and experiences. It is designed to provide visitors with an overview of my capabilities and the work I've done.
 
-<center>
+Features
+Responsive Design: The portfolio is built using Bootstrap and is responsive across various devices, ensuring a seamless user experience.
+Project Showcase: Display and highlight the projects I've worked on, including descriptions and links to their respective repositories or live demos.
+Skills and Technologies: Showcase the programming languages, frameworks, and technologies I am proficient in.
+Contact Information: Provide a way for visitors to get in touch with me.
+Installation
+To set up the project locally, follow these steps:
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+Clone the repository:
 
-</center>
+bash
+Copy code
+git clone https://github.com/your-username/portfolio.git
+Navigate to the project directory:
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+bash
+Copy code
+cd portfolio
+Install the required dependencies:
 
-## TL;DR
+bash
+Copy code
+npm install
+Usage
+Run the development server:
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+bash
+Copy code
+npm start
+Open your web browser and go to http://localhost:3000 to view the portfolio.
 
-## Built With
+Customize the content in the src directory to add your projects, skills, and personal information.
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-
-## Getting Started
-
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+Project Structure
+lua
+Copy code
+|-- portfolio
+    |-- public
+    |-- src
+        |-- components
+        |-- images
+        |-- pages
+        |-- App.js
+        |-- index.js
+    |-- package.json
+    |-- README.md
+public: Contains static assets like images and the index.html file.
+src: Contains the source code for the React application.
+components: React components for different sections of the portfolio.
+images: Store images used in the portfolio.
+pages: React components for different pages of the portfolio.
+App.js: Main component orchestrating the layout.
+index.js: Entry point of the React application.
+Technologies Used
+Node.js: Backend JavaScript runtime.
+React: JavaScript library for building user interfaces.
+HTML and CSS: Standard web development languages.
+Bootstrap: Front-end framework for design and layout.
+Contributing
+If you'd like to contribute to this project, please follow the steps outlined in the CONTRIBUTING.md file.
